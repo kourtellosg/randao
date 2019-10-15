@@ -1,0 +1,31 @@
+{
+  "name": "randao",
+  "author": "PumaPay Team",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "scripts/test.sh",
+    "coverage": "npm test -- true"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bignumber": "1.1.0",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "ganache-cli": "6.6.0",
+    "openzeppelin-test-helpers": "0.4.0",
+    "prettier": "^1.18.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.27",
+    "solhint": "^2.1.2",
+    "solhint-plugin-prettier": "0.0.2",
+    "solidity-coverage": "0.6.3",
+    "truffle": "5.0.39",
+    "truffle-assertions": "0.9.1",
+    "truffle-flattener": "1.4.2",
+    "truffle-security": "1.6.1"
+  }
+}
